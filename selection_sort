@@ -1,0 +1,13 @@
+public class Test{
+    public static void main(String[] args) {
+        String[] g={"January","February","March","April","May"};
+        String month = g[0];
+        for (int i = 0;i<g.length;i++){
+            if(g[i].length()<month.length()){
+                month = g[i];
+            }
+        }
+        System.out.println(month);
+        System.out.println("May".compareTo("April"));
+    }
+}
